@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Samarth Sawant — Video Editor, Content Creator &amp; Graphic Designer | Pune</title>
+  <meta name="description" content="Portfolio of Samarth Sawant — video editor, content creator, social media manager, graphic designer and cinematic shooter based in Pune. Watch the showreel.">
+  <meta property="og:title" content="Samarth Sawant — Video Editor, Content Creator &amp; Graphic Designer | Pune">
+  <meta property="og:description" content="Portfolio of Samarth Sawant — video editor, content creator, social media manager, graphic designer and cinematic shooter based in Pune. Watch the showreel.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0a0a'/%3E%3Ctext x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Anton,Impact,sans-serif' font-size='46' fill='%23d4ff3a'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Logo sprite (Simple Icons v13.21.0, CC0) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-pr" viewBox="0 0 24 24"><path d="M10.15 8.42a2.93 2.93 0 00-1.18-.2 13.9 13.9 0 00-1.09.02v3.36l.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03a1.45 1.45 0 00-.93-1.46zM19.75.3H4.25A4.25 4.25 0 000 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.09 11.65c-.4.56-.96.98-1.61 1.22-.68.25-1.43.34-2.25.34l-.5-.01-.43-.01v3.21a.12.12 0 01-.11.14H5.82c-.08 0-.12-.04-.12-.13V6.42c0-.07.03-.11.1-.11l.56-.01.76-.02.87-.02.91-.01c.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.15.42.23.85.23 1.3 0 .86-.2 1.57-.6 2.13zm6.82-3.15v1.95c0 .08-.05.11-.16.11a4.35 4.35 0 00-1.92.37c-.19.09-.37.21-.51.37v5.1c0 .1-.04.14-.13.14h-1.97a.14.14 0 01-.16-.12v-5.58l-.01-.75-.02-.78c0-.23-.02-.45-.04-.68a.1.1 0 01.07-.11h1.78c.1 0 .18.07.2.16a3.03 3.03 0 01.13.92c.3-.35.67-.64 1.08-.86a3.1 3.1 0 011.52-.39c.07-.01.13.04.14.11v.04z"/></symbol>
+    <symbol id="i-ae" viewBox="0 0 24 24"><path d="M8.54 10.73c-.1-.31-.19-.61-.29-.92s-.19-.6-.27-.89c-.08-.28-.15-.54-.22-.78h-.02c-.09.43-.2.86-.34 1.29-.15.48-.3.98-.46 1.48-.13.51-.29.98-.44 1.4h2.54c-.06-.21-.14-.46-.23-.72-.09-.27-.18-.56-.27-.86zm8.58-.29c-.55-.03-1.07.26-1.33.76-.12.23-.19.47-.22.72h2.109c.26 0 .45 0 .57-.01.08-.01.16-.03.23-.08v-.1c0-.13-.021-.25-.061-.37-.178-.56-.708-.94-1.298-.92zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.04 16.511h-2.09c-.07.01-.14-.041-.16-.11l-.82-2.4H5.92l-.76 2.36c-.02.09-.1.15-.19.14H3.09c-.11 0-.14-.06-.11-.18L6.2 7.39c.03-.1.06-.19.1-.31.04-.21.06-.43.06-.65-.01-.05.03-.1.08-.11h2.59c.07 0 .12.03.13.08l3.65 10.25c.03.11.001.161-.1.161zm7.851-3.991c-.021.189-.031.33-.041.42-.01.07-.069.13-.14.13-.06 0-.17.01-.33.021-.159.02-.35.029-.579.029-.23 0-.471-.04-.73-.04h-3.17c.039.31.14.62.31.89.181.271.431.48.729.601.4.17.841.26 1.281.25.35-.011.699-.04 1.039-.11.311-.039.61-.119.891-.23.05-.039.08-.02.08.08v1.531c0 .039-.01.08-.021.119-.021.03-.04.051-.069.07-.32.14-.65.24-1 .3-.471.09-.94.13-1.42.12-.761 0-1.4-.12-1.92-.35-.49-.211-.921-.541-1.261-.95-.319-.39-.55-.83-.69-1.31-.14-.471-.209-.961-.209-1.461 0-.539.08-1.07.25-1.59.16-.5.41-.96.75-1.37.33-.4.739-.72 1.209-.95.471-.23 1.03-.31 1.67-.31.531-.01 1.06.09 1.55.31.41.18.77.45 1.05.8.26.34.47.72.601 1.14.129.4.189.81.189 1.22 0 .24-.01.45-.019.64z"/></symbol>
+    <symbol id="i-ps" viewBox="0 0 24 24"><path d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z"/></symbol>
+    <symbol id="i-dr" viewBox="0 0 24 24"><path d="M17.621 0 5.977.004c-1.37 0-2.756.345-3.762 1.11a4.925 4.925 0 0 0-1.61 2.003C.233 3.93 0 5.02 0 5.951l.012 12.2c.002 1.604.479 3.057 1.461 4.112.984 1.056 2.462 1.683 4.331 1.691L16.856 24c1.26.005 3.095-.036 4.303-.714 1.075-.605 2.025-1.556 2.497-2.984.278-.84.345-2.084.344-3.147l-.021-11.13c-.002-.888-.15-2.023-.547-2.934-.425-.976-1.181-1.815-2.322-2.425C20.353.26 19.123 0 17.622 0zm0 .93c1.378 0 2.538.295 3.04.565.977.523 1.544 1.166 1.889 1.96.315.721.47 1.793.473 2.572l.018 11.13c.002 1.013-.097 2.257-.298 2.86-.396 1.202-1.146 1.946-2.063 2.462-.814.457-2.612.593-3.82.588l-11.05-.044c-1.657-.007-2.832-.534-3.626-1.386-.792-.851-1.212-2.06-1.212-3.485L.999 5.95c0-.829.196-1.827.474-2.437.345-.757.75-1.207 1.365-1.674C3.585 1.27 4.868.97 6.08.97zm-5.66 3.423c-1.976.089-3.204 1.658-3.214 3.29.019 1.443 1.635 3.481 2.884 4.53.12.099.154.109.33.18.062.025.198-.047.327-.135.36-.245.993-.947 1.648-1.738a7.67 7.67 0 0 0 1.031-1.683c.409-.89.261-1.599.235-1.888a3.983 3.983 0 0 0-.99-1.692 3.36 3.36 0 0 0-2.251-.864zm4.172 7.922a10.185 10.185 0 0 0-3.244.61c-.15.058-.26.1-.374.17-.057.036-.11.135-.105.292.017.433.29 1.278.624 2.27.384 1.135 1.066 2.27 1.844 2.74a3.23 3.23 0 0 0 2.53.342c.832-.243 1.595-.868 1.962-1.546.986-1.818.19-3.548-1.121-4.417-.447-.296-1.133-.445-1.89-.46-.074 0-.15-.002-.226-.001zm-8.432.038a6.201 6.201 0 0 0-.752.047c-.596.078-.932.273-1.29.51a3.177 3.177 0 0 0-1.365 1.979c-.075.552-.086 1.053.033 1.507.433 1.389 1.326 2.222 2.847 2.452.636.028 1.37-.063 1.99-.45 1.269-.782 2.08-3.17 2.412-4.742.053-.176.035-.357-.013-.42-.005-.067-.044-.113-.19-.183-.398-.192-1.32-.417-2.375-.6a7.68 7.68 0 0 0-1.297-.1z"/></symbol>
+    <symbol id="i-canva" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zM6.962 7.68c.754 0 1.337.549 1.405 1.2.069.583-.171 1.097-.822 1.406-.343.171-.48.172-.549.069-.034-.069 0-.137.069-.206.617-.514.617-.926.548-1.508-.034-.378-.308-.618-.583-.618-1.2 0-2.914 2.674-2.674 4.629.103.754.549 1.646 1.509 1.646.308 0 .65-.103.96-.24.5-.264.799-.47 1.097-.8-.073-.885.704-2.046 1.851-2.046.515 0 .926.205.96.583.068.514-.377.582-.514.582s-.378-.034-.378-.17c-.034-.138.309-.07.275-.378-.035-.206-.24-.274-.446-.274-.72 0-1.131.994-1.029 1.611.035.275.172.549.447.549.205 0 .514-.31.617-.755.068-.308.343-.514.583-.514.102 0 .17.034.205.171v.138c-.034.137-.137.548-.102.651 0 .069.034.171.17.171.092 0 .436-.18.777-.459.117-.59.253-1.298.253-1.357.034-.24.137-.48.617-.48.103 0 .171.034.205.171v.138l-.136.617c.445-.583 1.097-.994 1.508-.994.172 0 .309.102.309.274 0 .103 0 .274-.069.446-.137.377-.309.96-.412 1.474 0 .137.035.274.207.274.171 0 .685-.206 1.096-.754l.007-.004c-.002-.068-.007-.134-.007-.202 0-.411.035-.754.104-.994.068-.274.411-.514.617-.514.103 0 .205.069.205.171 0 .035 0 .103-.034.137-.137.446-.24.857-.24 1.269 0 .24.034.582.102.788 0 .034.035.069.07.069.068 0 .548-.445.89-1.028-.308-.206-.48-.549-.48-.96 0-.72.446-1.097.858-1.097.343 0 .617.24.617.72 0 .308-.103.65-.274.96h.102a.77.77 0 0 0 .584-.24.293.293 0 0 1 .134-.117c.335-.425.83-.74 1.41-.74.48 0 .924.205.959.582.068.515-.378.618-.515.618l-.002-.002c-.138 0-.377-.035-.377-.172 0-.137.309-.068.274-.376-.034-.206-.24-.275-.446-.275-.686 0-1.13.891-1.028 1.611.034.275.171.583.445.583.206 0 .515-.308.652-.754.068-.274.343-.514.583-.514.103 0 .17.034.205.171 0 .069 0 .206-.137.652-.17.308-.171.48-.137.617.034.274.171.48.309.583.034.034.068.102.068.102 0 .069-.034.138-.137.138-.034 0-.068 0-.103-.035-.514-.205-.72-.548-.789-.891-.205.24-.445.377-.72.377-.445 0-.89-.411-.96-.926a1.609 1.609 0 0 1 .075-.649c-.203.13-.422.203-.623.203h-.17c-.447.652-.927 1.098-1.27 1.303a.896.896 0 0 1-.377.104c-.068 0-.171-.035-.205-.104-.095-.152-.156-.392-.193-.667-.481.527-1.145.805-1.453.805-.343 0-.548-.206-.582-.55v-.376c.102-.754.377-1.2.377-1.337a.074.074 0 0 0-.069-.07c-.24 0-1.028.824-1.166 1.373l-.103.445c-.068.309-.377.515-.582.515-.103 0-.172-.035-.206-.172v-.137l.046-.233c-.435.31-.87.508-1.075.508-.308 0-.48-.172-.514-.412-.206.274-.445.412-.754.412-.352 0-.696-.24-.862-.593-.244.275-.523.553-.852.764-.48.309-1.028.549-1.68.549-.582 0-1.097-.309-1.371-.583-.412-.377-.651-.96-.686-1.509-.205-1.68.823-3.84 2.4-4.8.378-.205.755-.343 1.132-.343zm9.77 3.291c-.104 0-.172.172-.172.343 0 .274.137.583.309.755a1.74 1.74 0 0 0 .102-.583c0-.343-.137-.515-.24-.515z"/></symbol>
+    <symbol id="i-maya" viewBox="0 0 24 24"><path d="M4.348 0 .69 2.203v16.875l3.657-2.203h17.297V1.219c0-.67-.551-1.219-1.22-1.219H4.349zm18.297 3.75v14.125H4.627l-1.943 1.17v3.736c0 .67.55 1.219 1.218 1.219H23.31V3.75h-.664zm-14.471.025h2.937l1.885 7.508 1.977-7.48-.012-.028h2.857v9.354h-2.216v-6.04l-1.565 6.026v.014h-2.203l-1.656-6.28v6.28H8.174V3.775zm1.33 14.762h1.18l1.068 3.543h-.902l-.217-.773H9.568l-.197.773h-.88l1.013-3.543zm1.918 0h.932l.648 1.494.643-1.494h.894l-1.113 2.133v1.41h-.887v-1.406l-1.117-2.137zm3.826 0h1.18l1.068 3.543h-.9l-.217-.773h-1.065l-.197.773h-.88l1.011-3.543zm-5.156.582-.362 1.53h.73l-.368-1.53zm5.744 0-.36 1.53h.73l-.37-1.53z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></symbol>
+    <symbol id="i-capcut" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="6" fill="none" stroke="currentColor" stroke-width="2"/><text x="12" y="16.2" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-weight="700" font-size="10.5" fill="currentColor">Cc</text></symbol>
+    <symbol id="i-snapseed" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="6" fill="none" stroke="currentColor" stroke-width="2"/><text x="12" y="16.2" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-weight="700" font-size="10.5" fill="currentColor">Sn</text></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <!-- Film grain -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"><span>PLAY</span></div>
+
+  <!-- 0. Preloader -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader-count"><span class="count-num">00</span></div>
+    <p class="preloader-text">SAMARTH SAWANT — LOADING REEL</p>
+  </div>
+
+  <!-- 1. Nav -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav-logo">SAMARTH.</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#showreel">Showreel</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/Samarth_Sawant_CV.pdf" download class="nav-cv">Resume <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg></a>
+      <button class="btn btn-primary btn-sm magnetic" data-open-reel data-cursor="play"><span>Watch Reel ▶</span></button>
+    </nav>
+    <button class="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#showreel">Showreel</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/Samarth_Sawant_CV.pdf" download>Resume ↓</a>
+      <button class="btn btn-primary" data-open-reel><span>Watch Reel ▶</span></button>
+    </nav>
+  </div>
+
+  <main id="main">
+    <!-- 2. Hero -->
+    <section class="hero" id="top">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-gradient"></div>
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+          <source src="assets/intro.mp4" type="video/mp4" onerror="this.parentNode.remove()">
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="letterbox letterbox-top" aria-hidden="true"></div>
+      <div class="letterbox letterbox-bottom" aria-hidden="true"></div>
+
+      <!-- Hero photo: drop the image at assets/samarth-hero.jpg (portrait / vertical). Hidden automatically if missing. -->
+      <figure class="hero-portrait">
+        <div class="hero-portrait-frame">
+          <img src="assets/samarth-hero.jpg" alt="Samarth Sawant" fetchpriority="high" onerror="this.closest('.hero-portrait').remove()">
+        </div>
+        <figcaption class="hero-rec" aria-hidden="true"><span class="rec-dot"></span>REC <span class="rec-tc">00:00:00:00</span></figcaption>
+      </figure>
+
+      <div class="hero-inner container">
+        <p class="eyebrow hero-fade">PUNE, INDIA · AVAILABLE FOR FREELANCE &amp; FULL-TIME</p>
+        <h1 class="hero-title" aria-label="I cut, shoot and design stories that stop the scroll.">
+          <span class="line" aria-hidden="true"><span class="line-inner split-chars">I CUT, SHOOT &amp;</span></span>
+          <span class="line" aria-hidden="true"><span class="line-inner split-chars">DESIGN STORIES</span></span>
+          <span class="line" aria-hidden="true"><span class="line-inner split-chars">THAT STOP THE <span class="accent">SCROLL</span>.</span></span>
+        </h1>
+        <div class="roles hero-fade" aria-live="polite">
+          <span class="roles-window"><span class="role">Video Editor</span></span>
+        </div>
+        <div class="hero-ctas hero-fade">
+          <button class="btn btn-primary magnetic" data-open-reel data-cursor="play"><span>▶ Watch Showreel</span></button>
+          <a href="#contact" class="btn btn-secondary magnetic"><span>Let's Work Together</span></a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator hero-fade" aria-hidden="true">
+        <span>SCROLL ↓</span>
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- 3. Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>VIDEO EDITING ✦ CONTENT CREATION ✦ SOCIAL MEDIA ✦ GRAPHIC DESIGN ✦ CINEMATIC SHOOTS ✦ REELS ✦ MOTION GRAPHICS ✦&nbsp;</span>
+        <span>VIDEO EDITING ✦ CONTENT CREATION ✦ SOCIAL MEDIA ✦ GRAPHIC DESIGN ✦ CINEMATIC SHOOTS ✦ REELS ✦ MOTION GRAPHICS ✦&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- 4. About -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-media">
+          <div class="portrait">
+            <div class="portrait-inner">
+              <div class="portrait-fallback" aria-hidden="true">SS</div>
+              <img src="assets/samarth-hero-main.jpg" alt="Portrait of Samarth Sawant" loading="lazy" onerror="this.remove()">
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="tc" data-reveal>00:01 — ABOUT</p>
+          <p class="about-copy split-words">I'm Samarth — a video editor and content creator from Pune who turns raw clips into scroll-stopping stories. I've edited 50+ Instagram reels, obsessing over the cut, the beat-sync, the transition and the text that makes people stay. From shooting cinematic footage to designing the poster and growing the page, I handle the full creative loop: <strong>shoot, edit, design, post, grow.</strong></p>
+          <ul class="stats">
+            <li data-reveal><span class="stat-num" data-count="50" data-suffix="+">50+</span><span class="stat-label">Reels Edited</span></li>
+            <li data-reveal><span class="stat-num" data-count="5">5</span><span class="stat-label">Creative Services</span></li>
+            <li data-reveal><span class="stat-num" data-count="8" data-suffix="+">8+</span><span class="stat-label">Creative Tools</span></li>
+            <li data-reveal><span class="stat-num" data-count="3">3</span><span class="stat-label">Languages (Marathi · Hindi · English)</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Services -->
+    <section class="services" id="services">
+      <div class="services-pin">
+        <div class="container services-head">
+          <p class="tc" data-reveal>00:02 — WHAT I DO</p>
+        </div>
+        <div class="services-track">
+          <article class="card">
+            <span class="card-num">01</span>
+            <h3>Video Editing</h3>
+            <p>Reels, shorts and long-form edits with beat-synced cuts, smooth transitions and clean audio.</p>
+            <ul class="tags"><li>Premiere Pro</li><li>DaVinci Resolve</li><li>CapCut</li></ul>
+          </article>
+          <article class="card">
+            <span class="card-num">02</span>
+            <h3>Content Creation</h3>
+            <p>Trend-aware short-form ideas, scripting and storytelling built for the feed.</p>
+            <ul class="tags"><li>Reels</li><li>Shorts</li><li>Storytelling</li></ul>
+          </article>
+          <article class="card">
+            <span class="card-num">03</span>
+            <h3>Social Media Management</h3>
+            <p>Planning, posting and keeping a consistent brand look that grows the page.</p>
+            <ul class="tags"><li>Strategy</li><li>Consistency</li><li>Growth</li></ul>
+          </article>
+          <article class="card">
+            <span class="card-num">04</span>
+            <h3>Graphic Design</h3>
+            <p>Promotional posters, social creatives, banners and festival content with strong typography.</p>
+            <ul class="tags"><li>Photoshop</li><li>Canva</li></ul>
+          </article>
+          <article class="card">
+            <span class="card-num">05</span>
+            <h3>Cinematic Shooting</h3>
+            <p>Shooting moody, cinematic footage for reels, brands and events, with basic color grading.</p>
+            <ul class="tags"><li>Shoot</li><li>Grade</li><li>Deliver</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Showreel -->
+    <section class="section showreel" id="showreel">
+      <div class="container">
+        <p class="tc" data-reveal>00:03 — SHOWREEL</p>
+        <h2 class="display" data-reveal>THE REEL<span class="accent">.</span></h2>
+        <p class="sub" data-reveal>60 seconds of what I do best.</p>
+        <div class="player-wrap">
+          <div class="player" data-cursor="play">
+            <button class="player-poster" aria-label="Play showreel">
+              <span class="play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+            </button>
+          </div>
+        </div>
+        <a class="vimeo-link" href="https://vimeo.com/1246214587" target="_blank" rel="noopener">Watch on Vimeo ↗</a>
+      </div>
+    </section>
+
+    <!-- 7. Process -->
+    <section class="section process" id="process">
+      <div class="container">
+        <p class="tc" data-reveal>00:04 — HOW I WORK</p>
+        <div class="timeline">
+          <div class="timeline-track" aria-hidden="true">
+            <div class="timeline-fill"></div>
+            <div class="playhead"></div>
+          </div>
+          <ol class="steps">
+            <li class="step"><span class="step-num">01</span><h3>Brief &amp; Idea</h3><p>Understand the goal and the audience.</p></li>
+            <li class="step"><span class="step-num">02</span><h3>Shoot</h3><p>Capture cinematic, usable footage.</p></li>
+            <li class="step"><span class="step-num">03</span><h3>Edit &amp; Design</h3><p>Cut, sync, grade and design the visuals.</p></li>
+            <li class="step"><span class="step-num">04</span><h3>Post &amp; Grow</h3><p>Publish, track and improve for growth.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Skills -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <p class="tc" data-reveal>00:05 — TOOLKIT</p>
+        <ul class="chips chips-tools">
+          <li class="chip" style="--brand:#9999ff"><svg class="logo" aria-hidden="true"><use href="#i-pr"/></svg>Premiere Pro</li>
+          <li class="chip" style="--brand:#9999ff"><svg class="logo" aria-hidden="true"><use href="#i-ae"/></svg>After Effects</li>
+          <li class="chip" style="--brand:#ff6a3d"><svg class="logo" aria-hidden="true"><use href="#i-dr"/></svg>DaVinci Resolve</li>
+          <li class="chip" style="--brand:#ffffff"><svg class="logo" aria-hidden="true"><use href="#i-capcut"/></svg>CapCut</li>
+          <li class="chip" style="--brand:#31a8ff"><svg class="logo" aria-hidden="true"><use href="#i-ps"/></svg>Photoshop</li>
+          <li class="chip" style="--brand:#00c4cc"><svg class="logo" aria-hidden="true"><use href="#i-canva"/></svg>Canva</li>
+          <li class="chip" style="--brand:#4caf50"><svg class="logo" aria-hidden="true"><use href="#i-snapseed"/></svg>Snapseed</li>
+          <li class="chip" style="--brand:#37a5cc"><svg class="logo" aria-hidden="true"><use href="#i-maya"/></svg>Maya</li>
+        </ul>
+        <ul class="chips chips-skills">
+          <li class="chip">Reels Editing</li><li class="chip">Short-form Content</li><li class="chip">Visual Storytelling</li><li class="chip">Color Grading</li><li class="chip">Transitions</li><li class="chip">Audio Sync</li><li class="chip">Typography</li><li class="chip">Social Media Trends</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 9. Education -->
+    <section class="section education" id="education">
+      <div class="container">
+        <p class="tc" data-reveal>00:06 — BACKGROUND</p>
+        <ul class="edu">
+          <li data-reveal><strong>MCA (Pursuing)</strong> — MES Institute of Management &amp; Career Courses (IMCC), Pune</li>
+          <li data-reveal><strong>BCA</strong> — Yashwantrao Chavan Mahavidyalaya, Islampur</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 10. Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="tc" data-reveal>00:07 — LET'S CREATE</p>
+        <h2 class="contact-title">
+          <span class="line"><span class="line-inner">GOT A STORY?</span></span>
+          <span class="line"><span class="line-inner">LET'S MAKE IT</span></span>
+          <span class="line"><span class="line-inner accent">UNSKIPPABLE.</span></span>
+        </h2>
+        <div class="contact-btns">
+          <a class="btn btn-primary magnetic" href="mailto:samarthsawant555@gmail.com?subject=Project%20Inquiry"><span><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>Email me</span></a>
+          <a class="btn btn-secondary magnetic" href="https://wa.me/918767666376?text=Hi%20Samarth%2C%20I%20saw%20your%20portfolio" target="_blank" rel="noopener"><span><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</span></a>
+          <a class="btn btn-secondary magnetic" href="https://www.instagram.com/ft.samartth/" target="_blank" rel="noopener"><span><svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</span></a>
+          <a class="btn btn-secondary magnetic" href="https://www.linkedin.com/in/samarth-sawant-2056b6240/" target="_blank" rel="noopener"><span><svg class="ico" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</span></a>
+          <a class="btn btn-secondary magnetic" href="assets/Samarth_Sawant_CV.pdf" download><span><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Download CV</span></a>
+          <button class="btn btn-secondary magnetic" data-open-reel data-cursor="play"><span>▶ Watch Showreel</span></button>
+        </div>
+        <button class="email-copy" data-email="samarthsawant555@gmail.com" aria-label="Copy email address samarthsawant555@gmail.com">samarthsawant555@gmail.com</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Samarth Sawant · Pune, India</p>
+      <ul class="socials">
+        <li><a href="https://www.instagram.com/ft.samartth/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+        <li><a href="https://www.linkedin.com/in/samarth-sawant-2056b6240/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ico" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+        <li><a href="https://wa.me/918767666376?text=Hi%20Samarth%2C%20I%20saw%20your%20portfolio" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></a></li>
+        <li><a href="mailto:samarthsawant555@gmail.com?subject=Project%20Inquiry" aria-label="Email"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+      </ul>
+      <button class="to-top">Back to top ↑</button>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <button class="float-cta magnetic" data-open-reel data-cursor="play" aria-label="Watch showreel"><span>▶ Reel</span></button>
+
+  <!-- Toast -->
+  <div class="toast" role="status" aria-live="polite">Copied!</div>
+
+  <!-- Showreel modal -->
+  <div class="modal" role="dialog" aria-modal="true" aria-label="Showreel" hidden>
+    <div class="modal-backdrop" data-close-reel></div>
+    <div class="modal-box">
+      <button class="modal-close" data-close-reel aria-label="Close showreel">✕</button>
+      <div class="modal-frame"></div>
+    </div>
+  </div>
+</body>
+</html>
